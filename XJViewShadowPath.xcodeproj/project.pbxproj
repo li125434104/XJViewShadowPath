@@ -13,6 +13,7 @@
 		A1A0D1EE1FCC0406005040AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A0D1ED1FCC0406005040AC /* Assets.xcassets */; };
 		A1A0D1F11FCC0406005040AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1A0D1EF1FCC0406005040AC /* LaunchScreen.storyboard */; };
 		A1A0D1F41FCC0406005040AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A0D1F31FCC0406005040AC /* main.m */; };
+		A1A0D1FC1FCC0424005040AC /* UIView+ShadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A0D1FB1FCC0424005040AC /* UIView+ShadowPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		A1A0D1F01FCC0406005040AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1A0D1F21FCC0406005040AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1A0D1F31FCC0406005040AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1A0D1FA1FCC0424005040AC /* UIView+ShadowPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ShadowPath.h"; sourceTree = "<group>"; };
+		A1A0D1FB1FCC0424005040AC /* UIView+ShadowPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ShadowPath.m"; sourceTree = "<group>"; };
+		A1A0D1FD1FCC1445005040AC /* TUUIMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUUIMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 				A1A0D1E51FCC0406005040AC /* AppDelegate.m */,
 				A1A0D1E71FCC0406005040AC /* ViewController.h */,
 				A1A0D1E81FCC0406005040AC /* ViewController.m */,
+				A1A0D1FA1FCC0424005040AC /* UIView+ShadowPath.h */,
+				A1A0D1FB1FCC0424005040AC /* UIView+ShadowPath.m */,
+				A1A0D1FD1FCC1445005040AC /* TUUIMacro.h */,
 				A1A0D1EA1FCC0406005040AC /* Main.storyboard */,
 				A1A0D1ED1FCC0406005040AC /* Assets.xcassets */,
 				A1A0D1EF1FCC0406005040AC /* LaunchScreen.storyboard */,
@@ -143,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A0D1E91FCC0406005040AC /* ViewController.m in Sources */,
+				A1A0D1FC1FCC0424005040AC /* UIView+ShadowPath.m in Sources */,
 				A1A0D1F41FCC0406005040AC /* main.m in Sources */,
 				A1A0D1E61FCC0406005040AC /* AppDelegate.m in Sources */,
 			);

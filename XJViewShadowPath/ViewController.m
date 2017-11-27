@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIView+ShadowPath.h"
+#import "TUUIMacro.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    
+    UIView *shadowView = [[UIView alloc] initWithFrame:CGRectMake(50, 200, 250, 250)];
+    [self.view addSubview:shadowView];
+    shadowView.backgroundColor = [UIColor whiteColor];
+    [shadowView setShadowPathWith:kColorFromHexA(0xff66C6F5, 0.7)
+                    shadowOpacity:0.3
+                     shadowRadius:5
+                   shadowPathSide:ShadowPathLeft
+                  shadowPathWidth:20];
 }
 
 
